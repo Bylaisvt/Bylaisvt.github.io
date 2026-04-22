@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body style="background:pink; text-align:center;">
+
+<h1>点我变颜色</h1>
+
+<script>
+document.onclick = function(){
+  let r = Math.random()*255
+  let g = Math.random()*255
+  let b = Math.random()*255
+  document.body.style.background = `rgb(${r},${g},${b})`
+}
+</script>
+
+</body>
+</html>
